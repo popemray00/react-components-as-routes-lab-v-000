@@ -6,6 +6,11 @@ const Actors = () => {
     <div>
       {<h1>Actors Page</h1>}
     </div>
+    <div>
+      actors.forEach((name, i)) => {
+        actors[i].name
+      }
+    </div>
   );
 };
 
